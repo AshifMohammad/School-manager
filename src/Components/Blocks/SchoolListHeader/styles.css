@@ -1,0 +1,51 @@
+.school-list-header-main {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.school-list-header {
+    position: sticky;
+    top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    /* Light gray background for header */
+    font-weight: bold;
+}
+
+.school-list-header {
+    border-bottom: 1px solid #ccc;
+
+
+    .header-fields {
+
+        display: flex;
+        position: sticky;
+        top: 3rem;
+    }
+
+    #dbn-header,
+    #school-name-header {
+        padding: 10px 5px;
+    }
+
+}
+
+/**
+  Search Box css
+  */
+
+.search-box-container {
+    display: flex;
+    align-items: center;
+
+    .search-box {
+        input {
+            border-radius: 5px;
+            width: 15rem;
+            height: 1.5rem
+        }
+    }
+}

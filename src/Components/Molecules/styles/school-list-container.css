@@ -1,0 +1,38 @@
+
+  .school-list-container {
+    flex: 1;
+    border-right: 1px solid #ccc;
+    padding: 0 20px;
+    overflow-y: scroll; 
+    height: 95vh;
+  }
+  
+  /* .school-list-container h1 {
+    position: sticky;
+    top: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+   */
+  .school-list-viewer {
+    flex: 1;
+    padding: 0 20px;
+    border-left: 1px solid #ccc; /* Add border between list and viewer */
+    margin-left: 20px; /* Add space between list and viewer */
+  }
+  
+  .school-list-viewer h1 {
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  .school-record {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee; /* Add border between school records */
+  }
+  
+  .school-record:last-child {
+    border-bottom: none; /* Remove border from last school record */
+  }
+  

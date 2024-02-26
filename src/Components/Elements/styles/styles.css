@@ -1,0 +1,13 @@
+
+.school-record{
+    display: flex;
+    cursor: pointer;
+    #school_name{
+    padding: 10px 5px;
+
+    }
+    #dbn_name{
+    padding: 10px 5px;
+
+    }
+}
