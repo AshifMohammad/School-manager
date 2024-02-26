@@ -3,26 +3,28 @@
     flex: 1;
     border-right: 1px solid #ccc;
     padding: 0 20px;
-    overflow-y: scroll; 
-    height: 95vh;
   }
   
-  /* .school-list-container h1 {
-    position: sticky;
-    top: 10px;
-    background-color: white;
-    margin-bottom: 10px;
+  .school-record-list {
+    overflow-y: scroll;
+    height: 95vh;
+
   }
-   */
+  
   .school-list-viewer {
     flex: 1;
     padding: 0 20px;
     border-left: 1px solid #ccc; /* Add border between list and viewer */
     margin-left: 20px; /* Add space between list and viewer */
+    margin-bottom: 20px;
   }
   
   .school-list-viewer h1 {
     margin-bottom: 10px;
+  }
+
+  .school-viewer-section{
+    margin-bottom: 5rem;
   }
   
  

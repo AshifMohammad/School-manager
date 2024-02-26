@@ -16,6 +16,10 @@ export interface SchoolRecrod {
   phone_number: string;
   fax_number: string;
   school_email: string;
+  total_students:string;
+  extracurricular_activities:string,
+  city:string;
+  zip:string
 }
 
 

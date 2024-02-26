@@ -1,0 +1,19 @@
+.record-container {
+    width: 100%;
+  }
+  
+  .record-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .record-table td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+  }
+  
+  .record-table td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  
